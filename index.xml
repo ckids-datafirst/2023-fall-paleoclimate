@@ -11,6 +11,10 @@
 &lt;p>Last, we modify the pyleoclim package, set up tests associated to the new functionalities, and &lt;a href="https://github.com/LinkedEarth/Pyleoclim_util/commit/512c92d619ac692b2209f4a600c681db45e1a99e" target="_blank" rel="noopener">merge&lt;/a> the changes to the main branch.&lt;/p>
 &lt;h2 id="visualization">Visualization&lt;/h2>
 &lt;h3 id="scienceplot">SciencePlot&lt;/h3>
+&lt;p>One requested new feature for the Pyleoclim package was the implementation of SciencePlots in the plotting.py file so that plots created with Pyleoclim would fit science, ieee, nature, and notebook publication guidelines. In order to follow the guidelines, certain plot feature need to be set such as trendline colors, font, legend styles and more.&lt;/p>
+&lt;p>A notebook was created to show the comparison of the previous styles offered in Pyleoclim from matplotlib and the new styles implemented from SciencePlots which cam be found here:
+&lt;a href="https://github.com/ginnybarnes3/Pyleoclim_util_Barnes/blob/Barnes_Ginny_SciencePlots/PyleoSciencePlotsImplemented.ipynb" target="_blank" rel="noopener">https://github.com/ginnybarnes3/Pyleoclim_util_Barnes/blob/Barnes_Ginny_SciencePlots/PyleoSciencePlotsImplemented.ipynb&lt;/a>
+The file is too large to view on GitHub but the notebook can be downloaded and run on jupyter lab to view the comparisons.&lt;/p>
 &lt;h3 id="boxplot">BoxPlot&lt;/h3>
 &lt;h2 id="fluctuation-analysis">Fluctuation Analysis&lt;/h2></description></item><item><title>Data Assessment</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/data/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/2023-fall-paleoclimate/data/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>When implementing functionalities, we make use of several timeseries datasets, specifically paleoclimate datasets for testing.&lt;/p>
